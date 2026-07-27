@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+}
+
+#heading {
+    color: blue;
+}
+
+#text {
+    color: gray;
+    font-size: 15px;
+}
