@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What time is it?</title>
+    <style>
+        body {
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script defer>
+        /* 사용자 입력값 받기 - prompt() 함수 */
+        let name = prompt("이름을 입력하세요.: ", "Kyle");  // 기본값 표시
+
+        /* 알림 창으로 출력하기 - alert() 함수 */
+        alert("환영합니다.");
+
+        /* 웹 브라우저 화면에 출력하기 - document.write() 함수 */
+        document.write(`${name}님, 어서오세요!`);
+
+        /* 콘솔에 출력하기 - console.log() 함수 */
+        console.log(`${name}님, 어서오세요!`);
+    </script>
+</body>
+
+</html>
