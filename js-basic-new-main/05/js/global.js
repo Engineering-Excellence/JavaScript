@@ -1,7 +1,7 @@
-var myVar = 100;
+var myVar = 100;	// 전역 변수 선언
 test();
 document.write("myVar is " + myVar);
 
-function test() { 			
-	myVar = 50;
+function test() {
+    myVar = 50;	// 전역 변수 myVar의 값을 변경
 }
